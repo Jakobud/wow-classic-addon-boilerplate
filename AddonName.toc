@@ -1,0 +1,11 @@
+## Interface 13300
+## Title: AddonName
+## Notes: Addon description
+## Author: Author
+## Version: 1.0
+## DefaultState: enabled
+## SavedVariables: AddonNameDB
+
+embeds.xml
+core.lua
+options.lua
