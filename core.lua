@@ -39,12 +39,12 @@ end
 
 -- Addon enable handler
 function AddonName:OnEnable()
-    self:RegisterEvent("SOME_EVENT")
+    self:RegisterEvent("PLAYER_ENTERING_WORLD")
 end
 
 -- Addon disable handler
 function AddonName:OnDisable()
-    self:UnregisterEvent("SOME_EVENT")
+    self:UnregisterEvent("PLAYER_ENTERING_WORLD")
 end
 
 -- Open the Blizz Interface Options
@@ -54,5 +54,5 @@ function AddonName:OpenOptions()
 end
 
 -- Some event handler
-function AddonName:SOME_EVENT()
+function AddonName:PLAYER_ENTERING_WORLD()
 end

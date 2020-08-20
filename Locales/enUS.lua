@@ -3,3 +3,5 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0")
 local L = AceLocale:NewLocale("AddonName", "enUS", true)
 
 L["AddonName"] = true
+L["Profiles"] = true
+L["Options"] = true
